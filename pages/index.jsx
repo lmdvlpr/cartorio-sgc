@@ -1,5 +1,11 @@
 import Head from 'next/head'
-import { Menu } from '../components/Navbar'
+import { Modelos } from '../components/Modelos'
+import { Sobre } from '../components/Sobre'
+import { Cabecalho } from '../components/Cabecalho'
+import { Menu } from '../components/Menu'
+import { Servicos } from '../components/Servicos'
+import { Contato } from '../components/Contato'
+import { Rodape } from '../components/Rodape'
 
 export default function Home() {
 	return (
@@ -11,6 +17,12 @@ export default function Home() {
 			</Head>
 
 			<Menu />
+			<Cabecalho />
+			<Servicos />
+			<Sobre />
+			<Modelos />
+			<Contato />
+			<Rodape />
 		</div>
 	)
 }
