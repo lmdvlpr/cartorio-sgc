@@ -5,14 +5,14 @@ export function Menu() {
 	return (
 		<>
 			<Navbar fluid={true} rounded={true}>
-				<Navbar.Brand href="https://flowbite.com/">
-					{/* <Image
-						src="/vercel.svg"
-						width={72}
-						height={16}
+				<Navbar.Brand href="/">
+					<Image
+						src="/1.png"
+						width={60}
+						height={80}
 						className="mr-3 h-6 sm:h-9"
 						alt="Flowbite Logo"
-					/> */}
+					/>
 					<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
 						Cartório SGC
 					</span>

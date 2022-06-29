@@ -8,8 +8,8 @@ export function Rodape() {
 			<Footer className="flex flex-col">
 				<div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
 					<Footer.Brand
-						href="https://flowbite.com"
-						src="https://flowbite.com/docs/images/logo.svg"
+						href="/"
+						src="/logo.png"
 						alt="Flowbite Logo"
 						name="Flowbite"
 					/>
