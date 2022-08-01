@@ -11,10 +11,10 @@ export function Menu() {
 						width={60}
 						height={80}
 						className="mr-3 h-6 sm:h-9"
-						alt="Flowbite Logo"
+						alt="Logo do Cartório De Registro De Imóveis, Hipotecas, Títulos e Documentos - São Gonçalo Dos Campos"
 					/>
-					<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-						Cartório SGC
+					<span className="self-center whitespace-nowrap ml-2 text-xl font-semibold dark:text-white">
+						Cartório RI RTDPJ
 					</span>
 				</Navbar.Brand>
 				<Navbar.Toggle />

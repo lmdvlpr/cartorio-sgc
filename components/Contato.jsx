@@ -37,7 +37,7 @@ export function Contato() {
 								type="email"
 								id="email"
 								className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-								placeholder="contato@meuemail.com"
+								placeholder="Por favor, nos informe o seu e-mail"
 								required=""
 							/>
 						</div>
@@ -52,7 +52,7 @@ export function Contato() {
 								id="message"
 								rows={6}
 								className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-								placeholder="Escreva aqui a sua mensagem"
+								placeholder="Escreva aqui a sua mensagem..."
 								defaultValue={''}
 							/>
 						</div>
