@@ -26,6 +26,46 @@ export function Rodape() {
 						<div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
 							<div>
 								<h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+									Links Úteis
+								</h2>
+								<ul className="text-gray-600 dark:text-gray-400">
+									<li className="mb-4">
+										<a href="https://flowbite.com" className="hover:underline">
+											Flowbite
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://tailwindcss.com/"
+											className="hover:underline"
+										>
+											Tailwind CSS
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+									Resources
+								</h2>
+								<ul className="text-gray-600 dark:text-gray-400">
+									<li className="mb-4">
+										<a href="https://flowbite.com" className="hover:underline">
+											Flowbite
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://tailwindcss.com/"
+											className="hover:underline"
+										>
+											Tailwind CSS
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
 									Resources
 								</h2>
 								<ul className="text-gray-600 dark:text-gray-400">
@@ -55,8 +95,9 @@ export function Rodape() {
 							</a>
 						</span>
 						<div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+							{/* E-mail Icon */}
 							<a
-								href="#"
+								href="mailto:cartorio.registrosgc@gmail.com"
 								className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
 							>
 								<svg
@@ -74,7 +115,9 @@ export function Rodape() {
 									/>
 								</svg>
 							</a>
-							<a
+
+							{/* Facebook Icon */}
+							{/* <a
 								href="#"
 								className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
 							>
@@ -90,9 +133,13 @@ export function Rodape() {
 										clipRule="evenodd"
 									/>
 								</svg>
-							</a>
+							</a> */}
+
+							{/* Instagram Icon */}
 							<a
-								href="#"
+								href="https://www.instagram.com/"
+								rel="noreferrer"
+								target="_blank"
 								className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
 							>
 								<svg
@@ -108,8 +155,12 @@ export function Rodape() {
 									/>
 								</svg>
 							</a>
+
+							{/* WhatsApp Icon */}
 							<a
-								href="#"
+								href="https://wa.me/5575998480101"
+								rel="noreferrer"
+								target="_blank"
 								className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
 							>
 								<svg
