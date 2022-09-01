@@ -5,11 +5,12 @@ export function Servicos() {
 				<div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
 					<div className="max-w-screen-md mb-8 lg:mb-16">
 						<h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-							Designed for business teams like yours
+							Nossos Serviços
 						</h2>
 						<p className="text-gray-500 sm:text-xl dark:text-gray-400">
-							Here at Flowbite we focus on markets where technology, innovation,
-							and capital can unlock long-term value and drive economic growth.
+							Confira abaixo alguns dos nossos principais serviços. <br />
+							Para saber a lista completa, favor entrar em contato com a nossa
+							serventia.
 						</p>
 					</div>
 					<div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -23,18 +24,18 @@ export function Servicos() {
 								>
 									<path
 										fillRule="evenodd"
-										d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+										d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
 										clipRule="evenodd"
 									/>
 								</svg>
 							</div>
 							<h3 className="mb-2 text-xl font-bold dark:text-white">
-								Marketing
+								Registro de Escritura
 							</h3>
 							<p className="text-gray-500 dark:text-gray-400">
-								Plan it, create it, launch it. Collaborate seamlessly with all
-								the organization and hit your marketing goals every month with
-								our marketing plan.
+								A escritura de imóvel e os contratos de financiamento
+								imobiliário registram a vontade das partes em realizar a
+								transferência da propriedade.
 							</p>
 						</div>
 						<div>
@@ -45,13 +46,21 @@ export function Servicos() {
 									viewBox="0 0 20 20"
 									xmlns="http://www.w3.org/2000/svg"
 								>
-									<path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+									<path d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2h-1.528A6 6 0 004 9.528V4z" />
+									<path
+										fillRule="evenodd"
+										d="M8 10a4 4 0 00-3.446 6.032l-1.261 1.26a1 1 0 101.414 1.415l1.261-1.261A4 4 0 108 10zm-2 4a2 2 0 114 0 2 2 0 01-4 0z"
+										clipRule="evenodd"
+									/>
 								</svg>
 							</div>
-							<h3 className="mb-2 text-xl font-bold dark:text-white">Legal</h3>
+							<h3 className="mb-2 text-xl font-bold dark:text-white">
+								Certidão de Ônus
+							</h3>
 							<p className="text-gray-500 dark:text-gray-400">
-								Protect your organization, devices and stay compliant with our
-								structured workflows and custom permissions made for you.
+								A Certidão de Ônus Reais é um documento utilizado para comprovar
+								se existe algum ônus que recaia sobre o imóvel, como hipoteca ou
+								penhora.
 							</p>
 						</div>
 						<div>
@@ -64,18 +73,18 @@ export function Servicos() {
 								>
 									<path
 										fillRule="evenodd"
-										d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+										d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
 										clipRule="evenodd"
 									/>
-									<path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
 								</svg>
 							</div>
 							<h3 className="mb-2 text-xl font-bold dark:text-white">
-								Business Automation
+								Averbação de Matrícula
 							</h3>
 							<p className="text-gray-500 dark:text-gray-400">
-								Auto-assign tasks, send Slack messages, and much more. Now power
-								up with hundreds of new templates to help you get started.
+								A averbação é o ato que anota todas as alterações ou acréscimos
+								referentes ao imóvel ou às pessoas que constam do registro ou da
+								matrícula do imóvel.
 							</p>
 						</div>
 						<div>
@@ -95,30 +104,13 @@ export function Servicos() {
 								</svg>
 							</div>
 							<h3 className="mb-2 text-xl font-bold dark:text-white">
-								Finance
+								Cédula de Crédito
 							</h3>
 							<p className="text-gray-500 dark:text-gray-400">
-								Audit-proof software built for critical financial operations
-								like month-end close and quarterly budgeting.
-							</p>
-						</div>
-						<div>
-							<div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-								<svg
-									className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
-									fill="currentColor"
-									viewBox="0 0 20 20"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
-								</svg>
-							</div>
-							<h3 className="mb-2 text-xl font-bold dark:text-white">
-								Enterprise Design
-							</h3>
-							<p className="text-gray-500 dark:text-gray-400">
-								Craft beautiful, delightful experiences for both marketing and
-								product with real cross-company collaboration.
+								É um título de crédito emitido por uma PF ou PJ, em favor de uma
+								instituição financeira, representando promessa de pagamento em
+								dinheiro, decorrente de operação de crédito de qualquer
+								modalidade.
 							</p>
 						</div>
 						<div>
@@ -131,18 +123,42 @@ export function Servicos() {
 								>
 									<path
 										fillRule="evenodd"
-										d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+										d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z"
 										clipRule="evenodd"
 									/>
 								</svg>
 							</div>
 							<h3 className="mb-2 text-xl font-bold dark:text-white">
-								Operations
+								Registro de Pessoa Jurídica
 							</h3>
 							<p className="text-gray-500 dark:text-gray-400">
-								Keep your company’s lights on with customizable, iterative, and
-								structured workflows built for all efficient teams and
-								individual.
+								Pessoa Jurídica é uma entidade com finalidade e propósito
+								específico, formada por uma ou mais Pessoas Físicas.
+							</p>
+						</div>
+						<div>
+							<div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+								<svg
+									className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+									fill="currentColor"
+									viewBox="0 0 20 20"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										fillRule="evenodd"
+										d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1zm-5 8.274l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L5 10.274zm10 0l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L15 10.274z"
+										clipRule="evenodd"
+									/>
+								</svg>
+							</div>
+							<h3 className="mb-2 text-xl font-bold dark:text-white">
+								Notificação Extrajudicial
+							</h3>
+							<p className="text-gray-500 dark:text-gray-400">
+								Notificação extrajudicial é uma comunicação que qualquer pessoa
+								faz com outra pessoa física ou jurídica com objetivo de
+								resolução de conflitos entre as partes sem a necessidade de ir à
+								justiça.
 							</p>
 						</div>
 					</div>
