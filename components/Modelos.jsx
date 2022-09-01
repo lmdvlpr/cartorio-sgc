@@ -9,10 +9,8 @@ export function Modelos() {
 							Modelos de Documentos
 						</h2>
 						<p className="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">
-							Flowbite helps you connect with friends, family and communities of
-							people who share your interests. Connecting with your friends and
-							family as well as discovering new ones is easy with features like
-							Groups, Watch and Marketplace.
+							Confira abaixo os modelos que preparamos para auxiliar os nossos
+							clientes na elaboração de seus documentos.
 						</p>
 					</div>
 					<Accordion alwaysOpen={true}>
