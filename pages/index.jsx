@@ -6,7 +6,8 @@ import { Cabecalho } from '../components/Cabecalho'
 import { Menu } from '../components/Menu'
 import { Servicos } from '../components/Servicos'
 import { Contato } from '../components/Contato'
-import { Rodape } from '../components/Rodape'
+// import { Rodape } from '../components/Rodape'
+import { Footer } from '../components/Footer'
 
 export default function Home() {
 	return (
@@ -23,7 +24,7 @@ export default function Home() {
 			<Sobre />
 			<Modelos />
 			<Contato />
-			<Rodape />
+			<Footer />
 		</div>
 	)
 }

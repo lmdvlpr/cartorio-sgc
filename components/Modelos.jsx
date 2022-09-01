@@ -2,7 +2,7 @@ import { Accordion } from 'flowbite-react'
 export function Modelos() {
 	return (
 		<>
-			<section className="bg-white dark:bg-gray-900">
+			<section className="bg-white dark:bg-gray-900" id="modelos">
 				<div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
 					<div className="mx-auto max-w-screen-sm text-center">
 						<h2 className="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">
@@ -18,36 +18,29 @@ export function Modelos() {
 							<Accordion.Title>Títulos e Documentos</Accordion.Title>
 							<Accordion.Content>
 								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									The main difference is that the core components from Flowbite
-									are open source under the MIT license, whereas Tailwind UI is
-									a paid product. Another difference is that Flowbite relies on
-									smaller and standalone components, whereas Tailwind UI offers
-									sections of pages.
+									Aqui estão alguns modelos para Títulos e Documentos.
 								</p>
 								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									However, we actually recommend using both Flowbite, Flowbite
-									Pro, and even Tailwind UI as there is no technical reason
-									stopping you from using the best of two worlds.
+									Estamos trabalhando para fornecer mais modelos, com o tempo essa lista
+									será atualizada.
 								</p>
-								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									Learn more about these technologies:
-								</p>
+								<br />
 								<ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
 									<li>
 										<a
-											href="https://flowbite.com/pro/"
+											href="/arquivos/MODELO-DE-NOTIFICACAO.doc"
 											className="text-blue-600 hover:underline dark:text-blue-500"
 										>
-											Flowbite Pro
+											Modelo De Notificação Extrajudicial
 										</a>
 									</li>
 									<li>
 										<a
-											href="https://tailwindui.com/"
+											href="/arquivos/MODELO-CONTRATO-DE-UNIAO-ESTAVEL.docx"
 											rel="nofollow"
 											className="text-blue-600 hover:underline dark:text-blue-500"
 										>
-											Tailwind UI
+											Modelo Contrato De União Estável
 										</a>
 									</li>
 								</ul>
@@ -57,75 +50,146 @@ export function Modelos() {
 							<Accordion.Title>Pessoa Jurídica</Accordion.Title>
 							<Accordion.Content>
 								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									The main difference is that the core components from Flowbite
-									are open source under the MIT license, whereas Tailwind UI is
-									a paid product. Another difference is that Flowbite relies on
-									smaller and standalone components, whereas Tailwind UI offers
-									sections of pages.
+								Aqui estão alguns modelos para Pessoa Jurídica.
 								</p>
 								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									However, we actually recommend using both Flowbite, Flowbite
-									Pro, and even Tailwind UI as there is no technical reason
-									stopping you from using the best of two worlds.
+									Estamos trabalhando para fornecer mais modelos, com o tempo essa lista será atualizada.
 								</p>
+								<br />
 								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									Learn more about these technologies:
+									Unidade Executora
 								</p>
 								<ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
 									<li>
 										<a
-											href="https://flowbite.com/pro/"
+											href="/arquivos/CONSTITUIÇÃO.zip"
 											className="text-blue-600 hover:underline dark:text-blue-500"
 										>
-											Flowbite Pro
+											Kit Para Constituição - Unidade Executora (Caixa Escolar)
 										</a>
 									</li>
 									<li>
 										<a
-											href="https://tailwindui.com/"
+											href="/arquivos/ALTERAÇÃO-CAIXA-ESCOLAR.zip"
 											rel="nofollow"
 											className="text-blue-600 hover:underline dark:text-blue-500"
 										>
-											Tailwind UI
+											Kit Para Alteração - Unidade Executora (Caixa Escolar)
+										</a>
+									</li>
+									<li>
+										<a
+											href="/arquivos/ALTERAÇÃO-ATUALIZAR-ESTATUTO-COM-O-CARTÃO-BANCÁRIO.zip"
+											rel="nofollow"
+											className="text-blue-600 hover:underline dark:text-blue-500"
+										>
+											Kit Alteração - Para Atualizar Estatuto Com O Cartão Bancário
+										</a>
+									</li>
+								</ul>
+								<br />
+								<p className="mb-2 text-gray-500 dark:text-gray-400">
+									Associação
+								</p>
+								<ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
+									<li>
+										<a
+											href="/arquivos/CONSTITUIÇÃO-ASSOCIAÇÃO.zip"
+											className="text-blue-600 hover:underline dark:text-blue-500"
+										>
+											Kit Para Constituição - Associações
+										</a>
+									</li>
+									<li>
+										<a
+											href="/arquivos/ELEIÇÃO-E-POSSE-ASSOCIAÇÃO.zip"
+											rel="nofollow"
+											className="text-blue-600 hover:underline dark:text-blue-500"
+										>
+											Kit Para Eleição e Posse - Associações
+										</a>
+									</li>
+									<li>
+										<a
+											href="/arquivos/ALTERAÇÃO-ASSOCIAÇÃO.zip"
+											rel="nofollow"
+											className="text-blue-600 hover:underline dark:text-blue-500"
+										>
+											Kit Para Alteração do Estatuto - Associações
+										</a>
+									</li>
+								</ul>
+								<br />
+								<p className="mb-2 text-gray-500 dark:text-gray-400">
+									Sociedade Simples
+								</p>
+								<ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
+									<li>
+										<a
+											href="/arquivos/CONSTITUIÇÃO-SOCIEDADE-SIMPLES.zip"
+											className="text-blue-600 hover:underline dark:text-blue-500"
+										>
+											Kit Para Constituição - Sociedade Simples
+										</a>
+									</li>
+								</ul>
+								<br />
+								<p className="mb-2 text-gray-500 dark:text-gray-400">
+									Sociedade Unipessoal Simples
+								</p>
+								<ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
+									<li>
+										<a
+											href="/arquivos/CONSTITUIÇÃO-SOCIEDADE-UNIPESSOAL-SIMPLES.zip"
+											className="text-blue-600 hover:underline dark:text-blue-500"
+										>
+											Kit Para Constituição - Sociedade Unipessoal
+										</a>
+									</li>
+								</ul>
+								<br />
+								<p className="mb-2 text-gray-500 dark:text-gray-400">
+									Associação Religiosa - Igreja
+								</p>
+								<ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
+									<li>
+										<a
+											href="/arquivos/CONSTITUIÇÃO-IGREJA.zip"
+											className="text-blue-600 hover:underline dark:text-blue-500"
+										>
+											Kit Para Constituição - Igreja
+										</a>
+									</li>
+									<li>
+										<a
+											href="/arquivos/ALTERAÇÃO-AVERBAÇÃO-IGREJA.zip"
+											className="text-blue-600 hover:underline dark:text-blue-500"
+										>
+											Kit Para Averbação ou Alteração - Igreja
 										</a>
 									</li>
 								</ul>
 							</Accordion.Content>
 						</Accordion.Panel>
 						<Accordion.Panel>
-							<Accordion.Title>Imóveis</Accordion.Title>
+							<Accordion.Title>Registro de Imóveis</Accordion.Title>
 							<Accordion.Content>
-								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									The main difference is that the core components from Flowbite
-									are open source under the MIT license, whereas Tailwind UI is
-									a paid product. Another difference is that Flowbite relies on
-									smaller and standalone components, whereas Tailwind UI offers
-									sections of pages.
+							<p className="mb-2 text-gray-500 dark:text-gray-400">
+									Aqui estão alguns modelos para Registro de Imóveis.
 								</p>
 								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									However, we actually recommend using both Flowbite, Flowbite
-									Pro, and even Tailwind UI as there is no technical reason
-									stopping you from using the best of two worlds.
+									Estamos trabalhando para fornecer mais modelos, com o tempo essa lista será atualizada.
 								</p>
-								<p className="mb-2 text-gray-500 dark:text-gray-400">
-									Learn more about these technologies:
-								</p>
+								<br />
 								<ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
 									<li>
 										<a
-											href="https://flowbite.com/pro/"
+											href="https://docs.google.com/document/d/1vBnNY8puUk7dTOA8SSr2L8PYLT3An9Ro5SaZIYc8Eiw/edit"
+											rel="noreferrer"
+											target="_blank"
 											className="text-blue-600 hover:underline dark:text-blue-500"
 										>
-											Flowbite Pro
-										</a>
-									</li>
-									<li>
-										<a
-											href="https://tailwindui.com/"
-											rel="nofollow"
-											className="text-blue-600 hover:underline dark:text-blue-500"
-										>
-											Tailwind UI
+											Checklist Para Desmembramento de Terra Rural
 										</a>
 									</li>
 								</ul>

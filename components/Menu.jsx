@@ -15,18 +15,18 @@ export function Menu() {
 							alt="Logo do Cartório De Registro De Imóveis, Hipotecas, Títulos e Documentos - São Gonçalo Dos Campos"
 						/>
 						<span className="self-center whitespace-nowrap ml-2 text-xl font-semibold dark:text-white">
-							Cartório RI RTDPJ
+							Cartório RI TD PJ
 						</span>
 					</Navbar.Brand>
 					<Navbar.Toggle />
 					<Navbar.Collapse>
-						<Navbar.Link href="/navbars" active={true}>
+						<Navbar.Link href="/" active={true}>
 							Início
 						</Navbar.Link>
-						<Navbar.Link href="/navbars">Serviços</Navbar.Link>
-						<Navbar.Link href="/navbars">Sobre</Navbar.Link>
-						<Navbar.Link href="/navbars">Modelos</Navbar.Link>
-						<Navbar.Link href="/navbars">Contato</Navbar.Link>
+						<Navbar.Link href="#servicos">Serviços</Navbar.Link>
+						<Navbar.Link href="#sobre">Sobre</Navbar.Link>
+						<Navbar.Link href="#modelos">Modelos</Navbar.Link>
+						<Navbar.Link href="#contato">Contato</Navbar.Link>
 					</Navbar.Collapse>
 				</Navbar>
 			</div>

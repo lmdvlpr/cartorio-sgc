@@ -3,7 +3,7 @@ import Image from 'next/image'
 export function Sobre() {
 	return (
 		<>
-			<section className="text-gray-400  body-font">
+			<section className="text-gray-400  body-font" id="sobre">
 				<div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 					<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
 						<Image
@@ -23,7 +23,7 @@ export function Sobre() {
 							{/* <br className="hidden lg:inline-block" />
 							readymade gluten */}
 						</h1>
-						<p className="mb-8 leading-relaxed">
+						<p className="mb-8 leading-relaxed text-gray-500">
 							O Cartório de Registro de Imóveis, Títulos, Documentos e Pessoa
 							Jurídica é uma serventia localizada na cidade São Gonçalo dos
 							Campos no interior da Bahia. Sendo responsável por três
@@ -33,10 +33,10 @@ export function Sobre() {
 						</p>
 						<div className="flex justify-center">
 							<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-								Modelos de Documentos
+								<a href="#modelos">Modelos de Documentos</a>
 							</button>
 							<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-								Entre em Contato
+								<a href="#contato">Entre em Contato</a>
 							</button>
 						</div>
 					</div>
