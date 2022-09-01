@@ -1,5 +1,3 @@
-import { Footer } from 'flowbite-react'
-import { BsFacebook, BsInstagram, BsWhatsapp } from 'react-icons/bs'
 import Image from 'next/image'
 // import Image from 'next/image'
 
@@ -30,21 +28,28 @@ export function Rodape() {
 								</h2>
 								<ul className="text-gray-600 dark:text-gray-400">
 									<li className="mb-4">
-										<a href="https://flowbite.com" className="hover:underline">
-											Flowbite
+										<a
+											href="https://ibatdpj.com.br/tela_inicial"
+											rel="noreferrer"
+											target="_blank"
+											className="hover:underline"
+										>
+											Central IBATDPJ
 										</a>
 									</li>
 									<li>
 										<a
-											href="https://tailwindcss.com/"
+											href="http://regin.ibatdpj.com.br:8181/servicosregin/servicos.html"
+											rel="noreferrer"
+											target="_blank"
 											className="hover:underline"
 										>
-											Tailwind CSS
+											REDESIM
 										</a>
 									</li>
 								</ul>
 							</div>
-							<div>
+							{/* <div>
 								<h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
 									Resources
 								</h2>
@@ -63,27 +68,16 @@ export function Rodape() {
 										</a>
 									</li>
 								</ul>
-							</div>
-							<div>
+							</div> */}
+							{/* <div>
 								<h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-									Resources
+									Endereço
 								</h2>
-								<ul className="text-gray-600 dark:text-gray-400">
-									<li className="mb-4">
-										<a href="https://flowbite.com" className="hover:underline">
-											Flowbite
-										</a>
-									</li>
-									<li>
-										<a
-											href="https://tailwindcss.com/"
-											className="hover:underline"
-										>
-											Tailwind CSS
-										</a>
-									</li>
-								</ul>
-							</div>
+								<span className="text-gray-600 dark:text-gray-400">
+									Rua Cel. Antônio Carlos Carlos, 02, Ed. Garden Plaza Center,
+									Sala 12 Centro, São Gonçalo dos Campos - BA. CEP: 44.330-000
+								</span>
+							</div> */}
 						</div>
 					</div>
 					<hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
