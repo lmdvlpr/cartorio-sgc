@@ -1,14 +1,4 @@
-import { useState, useEffect } from 'react'
-
 export function Contato() {
-	const [success, setSuccess] = useState(false)
-
-	useEffect(() => {
-		if (window.location.search.includes('success=true')) {
-			setSuccess(true)
-		}
-	}, [])
-
 	return (
 		<>
 			<section className="bg-white dark:bg-gray-900" id="contato">
