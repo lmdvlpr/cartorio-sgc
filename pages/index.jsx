@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import Head from 'next/head'
 import { Modelos } from '../components/Modelos'
 import { Sobre } from '../components/Sobre'
@@ -11,13 +10,6 @@ import { Contato } from '../components/Contato'
 import { Footer } from '../components/Footer'
 
 export default function Home() {
-	const [success, setSuccess] = useState(false)
-
-	useEffect(() => {
-		if (window.location.search.includes('success=true')) {
-			setSuccess(true)
-		}
-	}, [])
 	return (
 		<div>
 			<Head>
