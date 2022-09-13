@@ -1,13 +1,4 @@
-import { useState, useEffect } from 'react'
-
 export function Contato() {
-	const [success, setSuccess] = useState(false)
-
-	useEffect(() => {
-		if (window.location.search.includes('success=true')) {
-			setSuccess(true)
-		}
-	}, [])
 	return (
 		<>
 			<section className="bg-white dark:bg-gray-900" id="contato">
@@ -18,15 +9,10 @@ export function Contato() {
 					<p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
 						Tem alguma dúvida? Entre em contato conosco!
 					</p>
-					{success && (
-						<p className="mb-8 lg:mb-16 font-light text-center text-green-500 dark:text-green-400 sm:text-xl">
-							Sua mensagem foi enviada com sucesso!
-						</p>
-					)}
 					<form
-						name="contact"
+						name="Contato via Site"
 						method="POST"
-						action="/?success=true"
+						action="/sucesso"
 						netlify-honeypot="bot-field"
 						data-netlify="true"
 						className="space-y-8"
@@ -86,7 +72,7 @@ export function Contato() {
 						</div>
 						<button
 							type="submit"
-							className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+							className="py-3 px-5 text-sm font-medium text-center text-white rounded bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
 						>
 							Enviar Mensagem
 						</button>
