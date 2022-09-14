@@ -1,8 +1,8 @@
 import Head from 'next/head'
+
 import { Modelos } from '../components/Modelos'
 import { Sobre } from '../components/Sobre'
 import { Cabecalho } from '../components/Cabecalho'
-// import { Hero } from '../components/Hero'
 import { Menu } from '../components/Menu'
 import { Servicos } from '../components/Servicos'
 import { Contato } from '../components/Contato'
