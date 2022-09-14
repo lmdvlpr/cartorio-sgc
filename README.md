@@ -10,6 +10,6 @@
 - Site hospedado no [Netlify](https://www.netlify.com/).
 - Para lidar com o formulário foi utilizado o [Netlify Forms](https://www.netlify.com/products/forms/) com redirecionamento para o e-mail do Cartório.
 
-### Getting Started
+### Quem Desenvolveu
 
 Site desenvolvido por [Lucas Mota](https://github.com/l-mota)
