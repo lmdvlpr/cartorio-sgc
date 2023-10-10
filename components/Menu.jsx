@@ -8,11 +8,13 @@ export function Menu() {
 				<Navbar fluid={true} rounded={true}>
 					<Navbar.Brand href="/">
 						<Image
-							src="/1.png"
-							width={40}
-							height={60}
+							src="/brasao-versao-oficial.jpg"
+							width={90}
+							height={90}
+							//objectFit="cover"
+
 							className="mr-3 h-6 sm:h-9"
-							alt="Logo do Cartório De Registro De Imóveis, Hipotecas, Títulos e Documentos - São Gonçalo Dos Campos"
+							alt="Logo do Cartório de Registro de Imóveis, Hipotecas, Títulos e Documentos - São Gonçalo Dos Campos"
 						/>
 						<span className="self-center whitespace-nowrap ml-2 text-xl font-semibold dark:text-white">
 							Cartório RI TD PJ

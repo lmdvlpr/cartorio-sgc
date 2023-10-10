@@ -9,7 +9,7 @@ export function Sobre() {
 						<Image
 							className="object-cover object-center rounded"
 							alt="hero"
-							src="/logo.png"
+							src="/brasaooficialcolorido.png"
 							width={720}
 							height={600}
 						/>

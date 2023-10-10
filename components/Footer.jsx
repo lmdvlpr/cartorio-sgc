@@ -9,10 +9,10 @@ export function Footer() {
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <Image
-                src="/1.png"
-                width={40}
-                height={60}
-                className="mr-3 h-6 sm:h-9"
+                src="/brasao-versao-oficial.jpg"
+                width={90}
+                height={90}
+                className="h-6 sm:h-9"
                 alt="Logo do Cartório De Registro De Imóveis, Hipotecas, Títulos e Documentos - São Gonçalo Dos Campos"
               />
               <span className="ml-2 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -22,7 +22,7 @@ export function Footer() {
             <p className="mt-2 text-sm text-gray-500">
               Rua Cel. Antônio Carlos Carlos, 02 <br />
               Ed. Garden Plaza Center, Sala 12 <br />
-              Centro, São Gonçalo dos Campos - BA. <br />
+              Centro, São Gonçalo dos Campos - BA <br />
               CEP: 44.330-000
             </p>
           </div>
