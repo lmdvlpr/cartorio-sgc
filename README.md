@@ -12,4 +12,4 @@
 
 ### Quem Desenvolveu
 
-Site desenvolvido por [Lucas Mota](https://github.com/l-mota)
+Site desenvolvido por [Lucas Mota](https://github.com/lmdvlpr)
